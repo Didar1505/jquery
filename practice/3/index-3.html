@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Exercise 3</title>
+    <style>
+        .panel {
+            padding: 20px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            display: none;
+        }
+
+        .box-to-animate {
+            width: 50px;
+            height: 50px;
+            position: relative;
+            background-color: steelblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button id="toggle-btn">Toggle Panel</button>
+    <div class="panel">This is a slidable panel. It can be shown or hidden.</div>
+
+    <hr>
+
+    <button id="fade-out-btn">Fade Out Box</button>
+    <button id="fade-in-btn">Fade In Box</button>
+    <div id="fade-box" style="width: 100px; height: 100px; background-color: seagreen; margin-top: 10px;"></div>
+
+    <hr>
+
+    <button id="animate-btn">Animate Me!</button>
+    <div class="box-to-animate"></div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="index-3.js"></script>
+</body>
+
+</html>

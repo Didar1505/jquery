@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Exercise 2</title>
+    <style>
+        #color-box {
+            width: 150px;
+            height: 150px;
+            background-color: lightcoral;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        #secret-message {
+            display: none;
+            padding: 15px;
+            background-color: lightgoldenrodyellow;
+            border: 1px solid gold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button id="show-btn">Show Secret Message</button>
+    <div id="secret-message">Congratulations! You found me! 🎉</div>
+
+    <div id="color-box">Hover over me!</div>
+
+    <label for="name-input">Type your name:</label>
+    <input type="text" id="name-input">
+    <p>Your name will appear here: <span id="output"></span></p>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="index-2.js"></script>
+</body>
+
+</html>
